@@ -10,13 +10,13 @@ namespace ListaDobleCircular
     {
         public int Data {  get; set; }
         public Node Next { get; set; }
-        public Node Previus { get; set; }
+        public Node Previous { get; set; }
 
         public Node(int value) 
         {
             this.Data = value;
             this.Next = null;
-            this.Previus = null;
+            this.Previous = null;
         }
     }
 }
