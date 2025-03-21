@@ -3,7 +3,7 @@ using ListaDobleCircular;
 namespace TestListaDobleCircular
 {
     [TestClass]
-    public class CircularDoublyLinkedListTests
+    public class testlistaCircularDoble
     {
         [TestMethod]
         //La lista deberia estar vacia
